@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Score Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/score_background"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/score_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🏆 Your Score: 85/100"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <!-- Accuracy Section -->
+        <TextView
+            android:id="@+id/accuracy_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 Word Accuracy: 8/10 (80%)"
+            android:textSize="16sp"
+            android:textColor="#2C3E50"
+            android:padding="12dp"
+            android:background="@drawable/info_background"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Transcription Section -->
+        <TextView
+            android:id="@+id/transcription_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎤 What you said: \"
+            android:textSize="14sp"
+            android:textColor="#34495E"
+            android:padding="12dp"
+            android:background="@drawable/transcription_background"
+            android:layout_marginBottom="12dp"
+            android:textStyle="italic" />
+
+        <!-- Mistakes Section -->
+        <TextView
+            android:id="@+id/mistakes_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="❌ Issues Found:\n• Missing words: example\n• Extra words: none"
+            android:textSize="14sp"
+            android:textColor="#E74C3C"
+            android:padding="12dp"
+            android:background="@drawable/error_background"
+            android:layout_marginBottom="12dp"
+            android:lineSpacingExtra="2dp" />
+
+        <!-- Improvement Section -->
+        <TextView
+            android:id="@+id/improvement_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 Tips for Improvement:\n• Practice speaking slowly\n• Focus on clear articulation"
+            android:textSize="14sp"
+            android:textColor="#27AE60"
+            android:padding="12dp"
+            android:background="@drawable/success_background"
+            android:lineSpacingExtra="2dp" />
+
+    </LinearLayout>
+
+</ScrollView>

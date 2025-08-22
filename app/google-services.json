@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "481808404670",
+    "project_id": "ai-app-21220",
+    "storage_bucket": "ai-app-21220.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:481808404670:android:069960a82a5bb34b994eef",
+        "android_client_info": {
+          "package_name": "com.ensapfe.voca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEM7WG34kkyVuvsKKg0f1aWRj--BFEkvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

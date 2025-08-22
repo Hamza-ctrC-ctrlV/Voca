@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.Voca" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Remove default Material3 button tint globally -->
+        <item name="materialButtonStyle">@style/MyCustomButton</item>
+    </style>
+
+    <style name="Theme.Voca" parent="Base.Theme.Voca" />
+
+    <!-- Custom button style -->
+    <style name="MyCustomButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@null</item>
+    </style>
+
+</resources>
